@@ -7,6 +7,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	font-family: Love Ya Like A Sister;
+	/* padding: 20px; */
 }
 
 .app-container {
@@ -17,7 +18,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 550px;
+	max-width: 550px;
 	padding: 30px;
 	padding-bottom: 10px;
 }
@@ -42,6 +43,7 @@ body {
 }
 
 .button {
+	color: black;
 	border: none;
 	width: 93px;
 	height: 37px;

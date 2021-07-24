@@ -1,7 +1,7 @@
 .change-table-container {
-	width: 500px;
+	width: 100%;
 	/* border: 1px solid; */
-	height: 100px;
+	/* height: 100px; */
 	/* margin-top: 20px; */
 
 	display: flex;
@@ -11,18 +11,21 @@
 .change-table-row-container {
 	width: 100%;
 	/* border: 1px solid; */
-	height: 100px;
+	/* min-height: 50px; */
 	display: flex;
 	justify-content: space-between;
 }
 
 .change-table-row-element {
 	font-size: 14px;
-	width: 100%;
-	height: 100%;
+	width: 10%;
+	flex-grow: 1;
+	/* height: 50px; */
+	padding: 5px;
 	border: 1px solid;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	word-break: break-all;
 }
