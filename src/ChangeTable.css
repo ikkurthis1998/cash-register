@@ -1,0 +1,28 @@
+.change-table-container {
+	width: 500px;
+	/* border: 1px solid; */
+	height: 100px;
+	/* margin-top: 20px; */
+
+	display: flex;
+	flex-direction: column;
+}
+
+.change-table-row-container {
+	width: 100%;
+	/* border: 1px solid; */
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.change-table-row-element {
+	font-size: 14px;
+	width: 100%;
+	height: 100%;
+	border: 1px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
